@@ -1,0 +1,105 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="270dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/top">
+        
+        <com.android.volley.toolbox.NetworkImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment_detail_header"
+            android:scaleType="centerCrop"
+            android:background="@color/mid_warm" />
+
+
+        <com.bawanj.fresconews.view.CircularNetworkImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/fragment_detail_ic_avatar"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="56dp"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:id="@+id/fragment_detail_username"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="48dp"
+            android:layout_marginBottom="59dp"
+            android:textSize="16sp"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:layout_width="9.3dp"
+            android:layout_height="13.3dp"
+            android:id="@+id/fragment_detail_ic_address"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="34dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_room_white_18dp"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="14dp"
+            android:id="@+id/fragment_detail_address"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="48dp"
+            android:layout_marginBottom="34dp"
+            android:textSize="12sp"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:layout_width="13.3dp"
+            android:layout_height="13.3dp"
+            android:id="@+id/fragment_detail_ic_time"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="13.3dp"
+            android:layout_marginLeft="21.3dp"
+            android:src="@drawable/ic_query_builder_white_18dp"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="14dp"
+            android:id="@+id/fragment_detail_time"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="48dp"
+            android:layout_marginBottom="12dp"
+            android:textSize="12sp"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="322dp"
+        android:id="@+id/bottom"
+        android:layout_below="@id/top"
+        android:layout_alignParentLeft="true"
+        >
+
+        <TextView
+            android:id="@+id/fragment_detail_caption"
+            android:text="@string/fragment_detail_caption"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_width="327dp"
+            android:layout_height="306dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

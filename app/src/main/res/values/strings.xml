@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FrescoNews</string>
+
+    <string name="hello_world">The most intense tornadoes emerge from what are called supercell thunderstorms.  The two weak tornadoes ended a long dry streak for the 2015 tornado season.  This is just random text I copied from a few articles.  From the eruption that buried Pompeii in A.D. 79 to the superstorm that shut down New York City in 2012, natural disasters are an unavoidable part of life on Earth.  Watch out, man.</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- fragment -->
+    <string name="fragment_gallery_list">Gallery</string>
+    <string name="fragment_gallery_pager">Gallery Pager Fragment</string>
+
+    <string name="fragment_detail_caption">Loading caption... </string>
+
+</resources>
